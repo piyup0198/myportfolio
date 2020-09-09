@@ -40,10 +40,9 @@ border: 2px solid #6caed5;
 
 }
 
-
-
 .profile-img{
 	height: 400px;
+	margin-left: -60px;
 }
 
 .nav-bar{
