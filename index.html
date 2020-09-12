@@ -1,80 +1,216 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<meta name="viewport" content="width-device-width, initial-scale=1.0">
-
 	<!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<title>Resume</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 </head>
 <body>
-	<section class="header">
-		<video autoplay="loop" loop="" class="videobg" muted plays-inline>
-			<source src="video (1).mp4" type="video/mp4" infinite loop play>
-        </video>
-        <div class="welcome">
+	<!-------------header section---------->
+	<section id="header">
+		<div class="container text-center">
+			<div class="user-box">
+			   <img src="user1.png.png">
+			   <h1>Priyanka Rout</h1>
+			   <p>Front End Developer</p>
+			
+			</div>
+			
+		</div>
+		<div class="scorll-btn">
+			<div class="scroll-bar"><a href="#about"><span></span></a></div>
+			
+		</div>
+	</section>
+	<!-----------------------user info------------->
+	<section id="user-info">
+       <div class="nav-bar">
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#top">MENU</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fa fa-bars" style="color: white"></i> 
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume">RESUME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </div>
 
-		<h1>Hello WELCOME</h1>
-		<a href="#" class="bttn">Subscribe</a>
-		<a href="#" class="bttn">Photoshoot</a>
+		<!--------about------->
+		<div class="about container" id="about">
+			<div class="row">
+			<div class="col-md-6">
+				<img src="user1.png.png" class="profile-img" >
 				
+			</div> 
+			<div class="col-md-6">
+				<h3>WHO AM I?</h3>
+				<p>
+“My name is Priyanka, and I enjoy meeting new people and finding ways to help them have an uplifting experience. I have had a variety of customer service opportunities. I am always ready to learn new things and technologies. I am dedicated, outgoing, and a team player."
+
+</p>
+
+<div class="skills-bar">
+	<h1>My Skills</h1>
+	<p>Wordpress</p>
+	<div class="progress">
+		<div class="progress-bar" style="width: 95%">95%</div>
+		</div>
+    
+
+    <p>HTML</p>
+	<div class="progress">
+		<div class="progress-bar" style="width: 80%">80%</div>
+		</div>
+    
+
+    <p>Python</p>
+	<div class="progress">
+		<div class="progress-bar" style="width: 60%">60%</div>
 		</div>
 
-		</section>
 
-		<div class="navi">
-			<nav>
-				<a class="bar" href="#">Home</a>
-				<a class="bar" href="#">Gallery</a>
-				<a class="bar" href="#">About</a>
-				<a class="bar" href="#">Contact</a>
-			</nav>
+    <p>#c</p>
+	<div class="progress">
+		<div class="progress-bar" style="width: 50%">50%</div>
+		</div>
+
+
+	<p>CSS</p>
+	<div class="progress">
+		<div class="progress-bar" style="width: 70%">70%</div>
+		</div>	
+
+	
+</div>
+				
+			</div>
+			</div>
 			
 		</div>
 
-		<div class="container">
-			<h2>Demo Images</h2>
-  <div class="row">
+<!--------resume------>
+<div class="resume" id="resume">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" style="margin-left: -30px">
+				<h3 class="text-center">My Experiences</h3>
+				<ul class="timeline">
+					<li>
+						<h4>frontend developer at GMC</h4>
+						<p>
+							GMC(Get My Colleges) is a start-up by students to provide consultancy services in choosing a perfect carrer. I work as a frontend developer and blog manager at GMC.
+						</p>
+						</li>
+                         
+                         <li>
+						<h4>PYGAMES</h4>
+						<p>
+							I am pretty much familiar with py-games. Well I am not most comfortable but i do have certain knowledge of creating mini games with help of some websites. I am currently improving myself to work better with py-games.
+						</p>
+					</li>
+					
+				</ul>
+				
+			</div>
+	<div class="col-md-6" style="margin-left: -30px">
+				<h3 class="text-center">My Education</h3>
+				<ul class="timeline">
+					<li>
+						<h4>BTECH IN CSE</h4>
+						<p>
+							<b>Institute</b>- GITA <br>
+						</p>
+						</li>
+                         
+                         <li>
+						<h4>12th</h4>
+						<p>
+							<b>Institute</b>-BJB<br>
+						</p>
+					</li>
+					
+				</ul>
+				
+			</div>
 
-   <div class="col-md-6">
-    	<img src="pexels-photo-1779487.jpeg" class="img-thumbnail">
-    	<button class="btn">Nature</button>
-    	
-    </div>
-    <div class="col-md-6">
-    	<img src="pexels-photo-1779487.jpeg" class="img-thumbnail">
-    	<button class="btn">Beaches</button>
-    	</div>
 
-    <div class="col-md-6">
-    	<img src="pexels-photo-1779487.jpeg" class="img-thumbnail">
-    	<button class="btn">Mountain</button>
-    </div>
 
-    <div class="col-md-6">
-    	<img src="pexels-photo-1779487.jpeg" class="img-thumbnail">
-    	<button class="btn">City</button>
-    	
-    </div>
-  </div>
+
+		</div>
+		</div>
+		</div>	
+<!----------------contact------------>
+<div class="contact" id="contact">
+	<div class="container text-center">
+		<h1>Contact Me</h1>
+
+		<div class="row">
+        <div class="col-md-4">
+        	<i class="fa fa-phone">
+        		<p>+91 8249100389</p>
+        		</i>
+        	
+        </div>
+        <div class="col-md-4">
+        	<i class="fa fa-envelope">
+        	
+        		<p>piyup0198@gmail.com</p>
+        		</i>
+        	
+        </div>
+        <div class="col-md-4">
+        	<i class="fa fa-instagram">
+        		<P>
+        		<a href="#" style="color: white">piyuu_20</a></P>
+        		</i>
+        	
+        </div>			
+		</div>
+		<!-----------------
+		<button type="button" class="btn btn-primary"><i class="fa fa-download">Resume</i></button>
+-		<button type="button" class="btn btn-primary"><i class="fa fa-rocket">Hire Me</i></button>
+		---------->
+		</div>
+		
+		<div class="footer text-center">
+			<p>made with <i class="fa fa-heart-o"></i> by priyanka</p>
+
+
+			
+		
+
+	</div>
 </div>
 
 
-<div class style="background: black" ="footer">
+	</section>
 
-	<div class="footer text-center">
-			<p style="color: white">@made by priyanka</p>
-</div>
-
-</div>
-
-
+	<!--------------smooth scroll-------------->
+	<script type="smooth-scroll.js"></script>
+	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
