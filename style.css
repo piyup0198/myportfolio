@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	max-width: auto;
 }
 
 /*------------------Header css------------------------*/
@@ -41,9 +42,9 @@ border: 2px solid #6caed5;
 }
 
 .profile-img{
-	height: 400px;
-	margin-top: 50px;
-	margin-left: 60px;
+	height: 300px;
+	margin-top: 80px;
+	margin-left: 30px;
 }
 
 .nav-bar{
@@ -193,4 +194,35 @@ font-weight: 600;
 
 .fa-heart-o{
 	color: red;
+}
+
+
+@media screen and (max-width:959px){
+  .container{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:auto){
+  .body{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:959px){
+   #contact{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:959px){
+   #header{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:959px){
+   .about container{
+    width: 100%;
+  }
 }
